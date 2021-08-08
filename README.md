@@ -23,6 +23,13 @@ You once the server is up, you can navigate to the endpoints using the browser
 
 [http://0.0.0.0:3000/planets](http://0.0.0.0:3000/planets)
 
+## tests
+
+commands for running tests
+
+    npm run test
+
+
 ## Architecture
 
 - The application structure is microservices oriented. Functionality is divided into layers app/controller(included in app.js)/services/gateways
