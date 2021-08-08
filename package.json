@@ -4,7 +4,10 @@
   "description": "Star wars Api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:fix": "eslint src test --fix",
+    "test": "node ./node_modules/.bin/_mocha --exit --timeout 10000 --recursive",
+    "tdd": "mocha --recursive --watch",
+    "start": "node src/app"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,18 @@
   "homepage": "https://github.com/nicogon/starwarsapi#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "node-cache": "^5.1.2",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^9.0.3",
+    "nock": "^13.1.1",
+    "sinon": "^11.1.2",
+    "sinon-chai": "^3.7.0"
   }
 }
