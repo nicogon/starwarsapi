@@ -101,28 +101,6 @@
         "url": "https://swapi.dev/api/people/2/"
     },
     {
-        "name": "Beru Whitesun lars",
-        "height": "165",
-        "mass": "75",
-        "hair_color": "brown",
-        "skin_color": "light",
-        "eye_color": "blue",
-        "birth_year": "47BBY",
-        "gender": "female",
-        "homeworld": "https://swapi.dev/api/planets/1/",
-        "films": [
-            "https://swapi.dev/api/films/1/",
-            "https://swapi.dev/api/films/5/",
-            "https://swapi.dev/api/films/6/"
-        ],
-        "species": [],
-        "vehicles": [],
-        "starships": [],
-        "created": "2014-12-10T15:53:41.121000Z",
-        "edited": "2014-12-20T21:17:50.319000Z",
-        "url": "https://swapi.dev/api/people/7/"
-    },
-    {
         "name": "Luke Skywalker",
         "height": "172",
         "mass": "77",
@@ -236,28 +214,6 @@
         "url": "https://swapi.dev/api/people/11/"
     },
     {
-        "name": "Owen Lars",
-        "height": "178",
-        "mass": "120",
-        "hair_color": "brown, grey",
-        "skin_color": "light",
-        "eye_color": "blue",
-        "birth_year": "52BBY",
-        "gender": "male",
-        "homeworld": "https://swapi.dev/api/planets/1/",
-        "films": [
-            "https://swapi.dev/api/films/1/",
-            "https://swapi.dev/api/films/5/",
-            "https://swapi.dev/api/films/6/"
-        ],
-        "species": [],
-        "vehicles": [],
-        "starships": [],
-        "created": "2014-12-10T15:52:14.024000Z",
-        "edited": "2014-12-20T21:17:50.317000Z",
-        "url": "https://swapi.dev/api/people/6/"
-    },
-    {
         "name": "Darth Vader",
         "height": "202",
         "mass": "136",
@@ -281,6 +237,50 @@
         "created": "2014-12-10T15:18:20.704000Z",
         "edited": "2014-12-20T21:17:50.313000Z",
         "url": "https://swapi.dev/api/people/4/"
+    },
+    {
+        "name": "Owen Lars",
+        "height": "178",
+        "mass": "120,120",
+        "hair_color": "brown, grey",
+        "skin_color": "light",
+        "eye_color": "blue",
+        "birth_year": "52BBY",
+        "gender": "male",
+        "homeworld": "https://swapi.dev/api/planets/1/",
+        "films": [
+            "https://swapi.dev/api/films/1/",
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [],
+        "starships": [],
+        "created": "2014-12-10T15:52:14.024000Z",
+        "edited": "2014-12-20T21:17:50.317000Z",
+        "url": "https://swapi.dev/api/people/6/"
+    },
+    {
+        "name": "Beru Whitesun lars",
+        "height": "165",
+        "mass": "unknown",
+        "hair_color": "brown",
+        "skin_color": "light",
+        "eye_color": "blue",
+        "birth_year": "47BBY",
+        "gender": "female",
+        "homeworld": "https://swapi.dev/api/planets/1/",
+        "films": [
+            "https://swapi.dev/api/films/1/",
+            "https://swapi.dev/api/films/5/",
+            "https://swapi.dev/api/films/6/"
+        ],
+        "species": [],
+        "vehicles": [],
+        "starships": [],
+        "created": "2014-12-10T15:53:41.121000Z",
+        "edited": "2014-12-20T21:17:50.319000Z",
+        "url": "https://swapi.dev/api/people/7/"
     },
     {
         "name": "Wilhuff Tarkin",

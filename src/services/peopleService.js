@@ -42,7 +42,13 @@ function sortPeople(people, sortStrategy) {
     return people.sort((personA, personB) => parseInt(personA.height) - parseInt(personB.height));
   }
   if (sortStrategy === STRATEGIES.MASS) {
-    return people.sort((personA, personB) =>  parseInt(personA.mass) - parseInt(personB.mass));
+    return people.sort(sortMass);
   }
   return people;
+}
+
+function sortMass(personA, personB) {
+  const massA = parseInt(personA.mass.replace(/,/g, ''));
+  const massB = parseInt(personB.mass.replace(/,/g, ''));
+  return  (massA - massB) || (Number.isNaN(massA) - Number.isNaN(massB));
 }
